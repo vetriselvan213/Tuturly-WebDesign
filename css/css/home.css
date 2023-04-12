@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bigimage {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url("./assests/home/bg-home.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 54px;
+    height: 58px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.navbutton {
+    display: none;
+}
+
+.nav1 {
+    max-width: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+}
+
+.nav2 {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.nav2 p a {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.nav2 p a:hover {
+    padding: 3px 8px;
+    border-radius: 30%;
+    background-color: #22AC90;
+    box-shadow: 0 0 10px #22AC90;
+}
+
+.intro {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.intro h2 {
+    font-size: 350%;
+    line-height: 4rem;
+    margin: 0;
+}
+
+span {
+    color: #22AC90;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 0;
+    font-weight: 800;
+    background-color: #22AC90;
+    color: #FFFFFF;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.button:hover {
+    font-weight: 800;
+    box-shadow: 0 0 20px #22AC90;
+}
+
+.arw {
+    width: 30px;
+}
+
+/* floor-2 */
+
+.box2 {
+    padding: 100px 40px;
+}
+
+.f2-img {
+    width: 22%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* floor-3 */
+
+.floor3 {
+    padding-bottom: 70px;
+}
+
+.left-sec {
+    width: 58%;
+}
+
+.editpic {
+    width: 60%;
+}
+
+.right-sec {
+    width: 42%;
+    margin-left: 0;
+}
+
+.sub-head {
+    font-size: 250%;
+    line-height: 120%;
+}
+
+.right-sec h3 {
+    margin-top: 15px;
+}
+
+.right-sec h3 span {
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.fa-circle-check {
+    color: #22AC90;
+}
+
+.minibox {
+    margin-top: 30px;
+    max-width: 100%;
+    width: 80%;
+}
+
+.part1 {
+    width: 50%;
+}
+
+.p-tag {
+    line-height: 150%;
+    color: gray;
+}
+
+.intro p {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.part2 {
+    width: 50%;
+    height: 250px;
+    background-color: rgb(243, 239, 239);
+    padding: 10%;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+}
+
+.minibox1 {
+    max-width: 100%;
+    width: 50%;
+    border-left: 5px solid #22AC90;
+    margin-top: 40px;
+    text-align: left;
+    padding: 10px;
+}
+
+.profile {
+    width: 28%;
+    height: 50px;
+    padding: 1px;
+    border-radius: 50%;
+    border: .3px solid lightgrey;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.signature {
+    width: 70%;
+    height: 30px;
+    margin-left: 20px;
+}
+
+/* floor 4  */
+
+.floor4 {
+    padding-bottom: 100px;
+}
+
+.card {
+    cursor: pointer;
+    max-width: 30%;
+    height: 350px;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    overflow: hidden;
+    position: relative;
+}
+
+.myplus {
+    color: #fff;
+    background-color: #22AC90;
+    border: 2.5px solid #22AC90;
+    border-radius: 50%;
+}
+
+.circle {
+    float: right;
+    background-color: #22AC90;
+    color: #22AC90;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -5%;
+    right: -5%;
+}
+
+.pad25 {
+    padding: 10%;
+}
+
+/* footer */
+
+.bigimage-footer {
+    padding: 0;
+    height: 70%;
+    margin: 0;
+    position: relative;
+    background-image: url("./assests/home/ft-transformed.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(2, 53, 43, 0.6);
+}
+
+.sub-head1 {
+    font-size: 250%;
+    line-height: 120%;
+    position: relative;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: rgba(2, 53, 43, 0.6);
+        text-shadow: none;
+    }
+
+    18.1%,
+    20.1%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4;
+    }
+}
+
+.ftp1 {
+    width: 50%;
+}
+
+.foot-h {
+    font-weight: 700;
+    color: #22AC90;
+    font-size: larger;
+}
+
+.playbutton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -50px;
+    top: 0;
+}
+
+.ftp2 {
+    width: 30%;
+    background-color: #fff;
+    padding: 1.5%;
+    position: absolute;
+    top: -50px;
+    right: 18.1%;
+}
+
+.skill-sub-h {
+    font-size: 200%;
+}
+
+.line-h {
+    line-height: 1.5rem;
+}
+
+.stat {
+    margin-top: 15px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.blackline {
+    border-bottom: 4px solid black;
+}
+
+.progress {
+    width: 100%;
+    background-color: black;
+}
+
+.s-skill {
+    padding: 2px;
+}
+
+.science {
+    width: 30%;
+    background-color: #22AC90;
+    box-shadow: 0 0 2px #22AC90;
+}
+
+.maths {
+    width: 23%;
+    background-color: #22AC90;
+    box-shadow: 0 0 2px #22AC90;
+}
+
+@media (max-width:880px) {
+    .navbutton {
+        display: block;
+        cursor: pointer;
+        text-align: right;
+    }
+
+    .navbutton .line {
+        width: 30px;
+        height: 3px;
+        margin: 6px 0;
+        background-color: #fff;
+    }
+
+    .m-flex {
+        max-width: 100%;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav1 {
+        max-width: 100%;
+        width: 95%;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .nav2 {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .7);
+        display: block;
+        opacity: 0;
+        transition: ease .3s;
+    }
+
+    .nav2.active {
+        opacity: 1;
+        transition: .3s;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .nav2 p {
+        margin-top: 20px;
+        padding: 10px 5px;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+
+    .nav2 p:hover {
+        background-color: #22AC90;
+        box-shadow: 0 0 50px #22AC90;
+        border-radius: 10px;
+        transition: linear .5s;
+    }
+
+    .f2-img {
+        max-width: 100%;
+        width: 25%;
+        height: 170px;
+    }
+
+    .flexgroup {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-sec {
+        width: 85%;
+    }
+
+    .right-sec {
+        width: 85%;
+        margin: auto;
+    }
+
+    .max-1100 {
+        max-width: 60%;
+        margin: auto;
+    }
+
+    .card {
+        max-width: 70%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .bigimage-footer {
+        height: 100vh;
+    }
+
+    .overlay-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-jcsb {
+        display: flex;
+        flex-direction: column;
+        max-width: 85%;
+    }
+
+    .ftp1 {
+        width: 70%;
+        margin: auto;
+        position: absolute;
+        top: 55%;
+        bottom: 10%;
+        left: 0;
+        right: 0;
+    }
+
+    .ftp2 {
+        width: 70%;
+    }
+
+}
+
+@media (max-width:600px) {
+    .intro h2 {
+        font-size: 250%;
+    }
+
+    .box2 {
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .f2-img {
+        width: 80%;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 2%;
+        height: 170px;
+        border-radius: 15%;
+    }
+
+    .card {
+        max-width: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .ftp1 {
+        width: 80%;
+        margin: auto;
+        position: absolute;
+        top: 60%;
+        left: 0;
+        right: 0;
+    }
+
+    .sub-head {
+        line-height: 100%;
+    }
+}
